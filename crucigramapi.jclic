@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="crucigramapi" version="0.1.3">
+ <settings>
+  <title>crucigramaPI</title>
+  <revision description="created" date="1/9/25" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="PICruci" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.CrossWord" name="PICruci" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x666666">
+     <image name="componenteslol.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x666666" border="true" />
+   </settings>
+   <textGrid rows="15" columns="15" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>PROCESADOR*R**P</row>
+     <row>***********E**L</row>
+     <row>MEMORIARAM*F**A</row>
+     <row>***********R**C</row>
+     <row>***********I**A</row>
+     <row>***********G**B</row>
+     <row>GABINETE***E**A</row>
+     <row>***********R**S</row>
+     <row>***********A**E</row>
+     <row>RAM********C***</row>
+     <row>***********I***</row>
+     <row>***********O***</row>
+     <row>***********N***</row>
+     <row>***************</row>
+     <row>COMPATIBILIDAD*</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="acrossClues">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="11" item="0" />
+    <cell id="14" item="1" />
+    <cell id="14" item="0">
+     <p>se refiere a la capacidad de los distintos componentes de hardware de trabajar juntos de manera correcta y eficiente.</p>
+    </cell>
+    <cell id="13" item="0" />
+    <cell id="12" item="1" />
+    <cell id="12" item="0" />
+    <cell id="11" item="0" />
+    <cell id="11" item="0" />
+    <cell id="10" item="1" />
+    <cell id="10" item="0" />
+    <cell id="8" item="2" />
+    <cell id="8" item="0" />
+    <cell id="8" item="1" />
+    <cell id="7" item="2" />
+    <cell id="7" item="0" />
+    <cell id="7" item="1" />
+    <cell id="6" item="3" />
+    <cell id="6" item="0">
+     <p>Elige una caja espaciosa, bien ventilada y con buen flujo de aire.</p>
+    </cell>
+    <cell id="6" item="1" />
+    <cell id="6" item="2" />
+    <cell id="5" item="2" />
+    <cell id="5" item="0" />
+    <cell id="5" item="1" />
+    <cell id="4" item="2" />
+    <cell id="4" item="0" />
+    <cell id="4" item="1" />
+    <cell id="3" item="2" />
+    <cell id="3" item="0" />
+    <cell id="3" item="1" />
+    <cell id="2" item="3" />
+    <cell id="2" item="1" />
+    <cell id="2" item="2" />
+    <cell id="2" item="0">
+     <p>Permite que los juegos y las aplicaciones funcionen de manera fluida.</p>
+    </cell>
+    <cell id="1" item="2" />
+    <cell id="1" item="0" />
+    <cell id="1" item="1" />
+    <cell id="9" item="2" />
+    <cell id="9" item="0">
+     <p>Permite que los juegos y las aplicaciones funcionen de manera fluida.</p>
+    </cell>
+    <cell id="9" item="1" />
+    <cell id="1" item="4" />
+    <cell id="0" item="3" />
+    <cell id="0" item="1" />
+    <cell id="0" item="2" />
+    <cell id="0" item="0">
+     <p>Es el "cerebro" del equipo. Un buen procesador permite un mejor rendimiento en juegos exigentes y multitarea.</p>
+    </cell>
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="downClues">
+    <style />
+    <cell id="10" item="0" />
+    <cell id="10" item="0" />
+    <cell id="3" item="3" />
+    <cell id="3" item="3" />
+    <cell id="3" item="2" />
+    <cell id="2" item="4" />
+    <cell id="2" item="3" />
+    <cell id="2" item="4" />
+    <cell id="2" item="2" />
+    <cell id="1" item="4" />
+    <cell id="1" item="3" />
+    <cell id="1" item="4" />
+    <cell id="1" item="2" />
+    <cell id="13" item="1" />
+    <cell id="13" item="0" />
+    <cell id="12" item="1" />
+    <cell id="12" item="0" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0">
+     <p>Mantiene las temperaturas bajo control, especialmente en sistemas de alto rendimiento.</p>
+    </cell>
+    <cell id="11" item="0" />
+    <cell id="0" item="4" />
+    <cell id="0" item="3" />
+    <cell id="0" item="4" />
+    <cell id="0" item="2" />
+    <cell id="14" item="1" />
+    <cell id="14" item="0">
+     <p>Conecta todos los componentes y determina la compatibilidad de estos.</p>
+    </cell>
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="1" item="1" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0" />
+    <cell id="0" item="1" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0" />
+    <cell id="2" item="1" />
+    <cell id="4" item="3" />
+    <cell id="4" item="3" />
+    <cell id="4" item="2" />
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="5" item="3" />
+    <cell id="5" item="3" />
+    <cell id="5" item="2" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0" />
+    <cell id="6" item="3" />
+    <cell id="6" item="3" />
+    <cell id="6" item="2" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0" />
+    <cell id="7" item="3" />
+    <cell id="7" item="3" />
+    <cell id="7" item="2" />
+    <cell id="7" item="1" />
+    <cell id="7" item="0" />
+    <cell id="8" item="2" />
+    <cell id="8" item="2" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0" />
+    <cell id="9" item="2" />
+    <cell id="9" item="2" />
+    <cell id="9" item="1" />
+    <cell id="9" item="0" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" />
+    <cell id="3" item="1" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="componenteslol.jpg" file="componenteslol-crucigramapi.jpg" />
+ </mediaBag>
+</JClicProject>
+
